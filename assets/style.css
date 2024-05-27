@@ -1,5 +1,5 @@
 body {
-    background-image: url("images//bg.png");
+    background-image: url("images/bg.png");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +49,7 @@ body {
 }
 
 .banitem {
-    background-image: url("images//ban_item.png");
+    background-image: url("images/ban_item.png");
     filter: grayscale(100%);
     width: 350px;
     height: 80px;
@@ -60,70 +60,70 @@ body {
 }
 
 #slctAscent {
-    background-image: url("images//ban_ascent.png");
+    background-image: url("images/ban_ascent.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctBind {
-    background-image: url("images//ban_bind.png");
+    background-image: url("images/ban_bind.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctBreeze {
-    background-image: url("images//ban_breeze.png");
+    background-image: url("images/ban_breeze.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctFracture {
-    background-image: url("images//ban_fracture.png");
+    background-image: url("images/ban_fracture.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctHaven {
-    background-image: url("images//ban_haven.png");
+    background-image: url("images/ban_haven.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctIcebox {
-    background-image: url("images//ban_icebox.png");
+    background-image: url("images/ban_icebox.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctLotus {
-    background-image: url("images//ban_lotus.png");
+    background-image: url("images/ban_lotus.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctPearl {
-    background-image: url("images//ban_pearl.png");
+    background-image: url("images/ban_pearl.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctSplit {
-    background-image: url("images//ban_split.png");
+    background-image: url("images/ban_split.png");
     background-size: cover;
     width: 275px;
     height: 64px;
 }
 
 #slctSunset {
-    background-image: url("images//ban_sunset.png");
+    background-image: url("images/ban_sunset.png");
     background-size: cover;
     width: 275px;
     height: 64px;
@@ -168,7 +168,7 @@ body {
 }
 
 .pickitem {
-    background-image: url("images//pick_item.png");
+    background-image: url("images/pick_item.png");
     background-size: cover;
 
     transition: background-image 3s;
