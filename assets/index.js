@@ -29,7 +29,7 @@ function addMap(map) {
 function addBan(map) {
     counter++;
     bans++;
-    mapURL = "\'images//ban_" + map + ".png\'";
+    mapURL = "\'./assets/images/ban_" + map + ".png\'";
     banItem = "ban" + bans;
     let buffer = document.getElementById(banItem);
     buffer.style.backgroundImage = "url(" + mapURL + ")";
@@ -40,7 +40,7 @@ function addBan(map) {
 function addPick(map) {
     counter++;
     picks++;
-    mapURL = "\'images//pick_" + map + ".png\'";
+    mapURL = "\'./assets/images/pick_" + map + ".png\'";
     
     pickItem = "pick" + picks;
     let buffer = document.getElementById(pickItem);
