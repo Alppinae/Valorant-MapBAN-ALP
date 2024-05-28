@@ -60,4 +60,15 @@ slctSplit.addEventListener('click', () => addMap("split"))
 slctIcebox.addEventListener('click', () => addMap("icebox"))
 slctSunset.addEventListener('click', () => addMap("sunset"))
 
+function updateAdminPage() {
+    const bannedMaps = JSON.parse(localStorage.getItem('bannedMaps')) || [];
+    bannedMaps.forEach(map => {
+        const button = document.getElementById(`ban${map}`);
+        if (button) {
+            button.style.backgroundImage = `url('./assets/images/ban_${map}.png')`;
+        }
+    });
+}
 
+// Admin sayfası yüklendiğinde yasaklı haritaları güncelle
+document.addEventListener('DOMContentLoaded', updateAdminPage);

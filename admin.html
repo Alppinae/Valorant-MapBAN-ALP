@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Still Map Selection</title>
+    <title>Admin Still Map Selection</title>
     <link rel="stylesheet" href="assets/style.css" />
+    <style>
+      .btn-group button {
+        pointer-events: none; /* Tıklamayı devre dışı bırakır */
+        cursor: default; /* İşaretçi tıklanamaz olduğunu belirtir */
+      }
+    </style>
 </head>
 <body>
     <div class="split left">
@@ -38,8 +44,8 @@
         </div>
     </div>
     <div class="admin-btn">
-        <button onclick="window.location.href='admin.html'">Admin</button>
+        <button onclick="window.location.href='index.html'">Geri Dön</button>
     </div>
-    <script src="assets/index.js"></script>
+    <script src="assets/admin.js"></script>
 </body>
 </html>

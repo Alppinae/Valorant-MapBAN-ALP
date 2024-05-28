@@ -175,3 +175,23 @@ body {
     width: 250px;
     height: 750px;
 }
+.admin-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.admin-btn button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.admin-btn button:hover {
+    background-color: #777;
+}
